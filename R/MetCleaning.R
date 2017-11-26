@@ -359,7 +359,7 @@ setGeneric(name = "MetCleaning",
                    multiple = multiple,
                    threads = threads,
                    path = path,
-                   peakplot = peak.plot
+                   peakplot = FALSE
                  )
                  #save data
                  met.data.nor <- met.data
